@@ -1,1 +1,0 @@
-logo, foto, media
