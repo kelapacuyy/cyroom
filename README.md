@@ -1,6 +1,6 @@
 # cyroom
 
-Nama Website: Cyroom<br />
+Nama Website: cyroom<br />
 Mata Kuliah : Rekayasa Perangkat Lunak<br />
 Paralel: P1<br />
 Kelompok: 3<br />
