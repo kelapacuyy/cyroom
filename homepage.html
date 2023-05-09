@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="homepage.css" />
+
+    <title>Homepage</title>
+  </head>
+  <body>
+     <!--Navbar-->
+     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #d6e4f0">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="img/cyroom.png" alt="" width="135" height="45" class="d-inline-block align-text-top" />
+        </a>
+        <div class="container">
+          <div class="row">
+            <!-- <div class="col mt-1">
+              <i class="bi bi-search"></i>
+            </div> -->
+            <div class="col-md-4">
+              <input type="search" class="form-control" id="search" aria-describedby="Search" placeholder="search" />
+            </div>
+          </div>
+        </div>
+        <!-- <form class="d-flex"><input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="background-color: #d6e4f0"></form> -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <!-- BOOKMARKS -->
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-bookmarks-fill"></i></a>
+            </li>
+            <!-- NOTIFICATIONS -->
+            <li class="nav-item">
+              <a class="nav-link active" href="#"><i class="bi bi-bell-fill"></i></a>
+            </li>
+            <!-- COMMUNITY -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> <i class="bi bi-people-fill"></i></a>
+              <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Community</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Web/App Development</a></li>
+                <!-- <img src="img/wd.png" alt="" width="135" height="45" class="d-inline-block align-text-top" /> -->
+                <li><a class="dropdown-item" href="#">Data Mining</a></li>
+                <li><a class="dropdown-item" href="#">Game Development</a></li>
+                <li><a class="dropdown-item" href="#">Cyber Security</a></li>
+                <li><a class="dropdown-item" href="#">UI/UX</a></li>
+              </ul>
+            </li>
+            <!-- HOME -->
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="bi bi-house-fill"></i></a>
+            </li>
+            <!-- PROFILE -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> <i class="bi bi-person-circle"></i> username </a>
+              <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Settings</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Change Username</a></li>
+                <li><a class="dropdown-item" href="#">Change Password</a></li>
+                <li><a class="dropdown-item" href="#">Change Email</a></li>
+                <li><a class="dropdown-item" href="#">Help</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Logout</a></li>
+                <li><a class="dropdown-item" href="#">Delete Account</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Akhir Navbar-->
+
+    <!-- ask bar -->
+    <div class="ask-container">
+      <p><i class="bi bi-person-circle"></i><i>&nbsp;&nbsp; What do you want to ask?</i></p>
+    </div>
+    <!-- Akhir ask bar -->
+
+    <!--  Question -->
+    <div class="quest-container">
+      <h5><i class="bi bi-person-circle"></i>&nbsp;&nbsp;Bill Gates</h5>
+      <p>4 hours ago</p>
+      <h4>What is a NullPointerException, and how do i fix it?</h4>
+    </div>
+    <div class="icon-container"></div>
+    <div class="quest-container2">
+      <h6><i class="bi bi-person-circle"></i>&nbsp;&nbsp;Joseph Wampler&nbsp;&nbsp;<i class="bi bi-patch-check-fill"></i></h6>
+      <p>4 hours ago</p>
+      <p>There are two overarching types of variables in Java:</p>
+      <p>
+        1. Primitives: variables that contain data. If you want to manipulate the data in a primitive variable you can manipulate that variable directly. By convention primitive types start with a lowercase letter. For example variables of
+        type int or char are primitives.
+      </p>
+      <p>
+        2. References: variables that contain the memory address of an Object i.e. variables that refer to an Object. If you want to manipulate the Object that a reference variable refers to you must dereference it. Dereferencing usually
+        <i>(show more)</i>
+      </p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <h6><i class="bi bi-person-circle"></i>&nbsp;&nbsp;Sean Kernan</h6>
+      <p>1 hours ago</p>
+      <p>
+        NullPointerExceptions are exceptions that occur when you try to use a reference that points to no location in memory (null) as though it were referencing an object. Calling a method on a null reference or trying to access a field of
+        a null reference will trigger a NullPointerException. These are the most common, but other ways are listed on the NullPointerException javadoc page. Probably the quickest example code I could come up with to illustrate
+        <i>(show more)</i>
+      </p>
+      <p>&nbsp;</p>
+    </div>
+
+    <div class="quest-container3">
+      <h5><i class="bi bi-person-circle"></i>&nbsp;&nbsp;Bill Gates</h5>
+      <p>4 hours ago</p>
+      <h4>What is a NullPointerException, and how do i fix it?</h4>
+    </div>
+    <div class="icon-container"></div>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <!-- Akhir question -->
+
+    <!-- Jangan dihapus -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+<!-- Icon Notifications -->
+<!-- <button type="button" class="btn btn-primary position-relative">
+  Inbox
+  <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+    99+
+    <span class="visually-hidden">unread messages</span>
+  </span>
+</button> -->
+<!-- Akhir icons notifications -->
