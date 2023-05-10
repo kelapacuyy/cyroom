@@ -1,0 +1,1 @@
+media, picture, icon, etc
