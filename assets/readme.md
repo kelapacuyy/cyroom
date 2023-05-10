@@ -1,1 +1,1 @@
-media, picture, icon, etc
+media, pictures, icons, etc
