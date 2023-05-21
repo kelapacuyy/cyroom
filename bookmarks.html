@@ -17,70 +17,49 @@
     <title>Cyroom | Bookmarks</title>
   </head>
   <body>
-    <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #d6e4f0">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="img/cyroom.png" alt="" width="135" height="45" class="d-inline-block align-text-top" />
-        </a>
-        <div class="container">
-          <div class="row">
-            <!-- <div class="col mt-1">
-              <i class="bi bi-search"></i>
-            </div> -->
-            <div class="col-md-4">
-              <input type="search" class="form-control" id="search" aria-describedby="Search" placeholder="search" />
-            </div>
-          </div>
-        </div>
-        <!-- <form class="d-flex"><input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="background-color: #d6e4f0"></form> -->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto">
-            <!-- BOOKMARKS -->
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-bookmarks-fill"></i></a>
-            </li>
-            <!-- NOTIFICATIONS -->
-            <li class="nav-item">
-              <a class="nav-link active" href="#"><i class="bi bi-bell-fill"></i></a>
-            </li>
-            <!-- COMMUNITY -->
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> <i class="bi bi-people-fill"></i></a>
-              <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Community</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#">Web/App Development</a></li>
-                <!-- <img src="img/wd.png" alt="" width="135" height="45" class="d-inline-block align-text-top" /> -->
-                <li><a class="dropdown-item" href="#">Data Mining</a></li>
-                <li><a class="dropdown-item" href="#">Game Development</a></li>
-                <li><a class="dropdown-item" href="#">Cyber Security</a></li>
-                <li><a class="dropdown-item" href="#">UI/UX</a></li>
-              </ul>
-            </li>
-            <!-- HOME -->
-            <li class="nav-item">
-              <a class="nav-link" href="#"><i class="bi bi-house-fill"></i></a>
-            </li>
-            <!-- PROFILE -->
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> <i class="bi bi-person-circle"></i> username </a>
-              <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Settings</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#">Change Username</a></li>
-                <li><a class="dropdown-item" href="#">Change Password</a></li>
-                <li><a class="dropdown-item" href="#">Change Email</a></li>
-                <li><a class="dropdown-item" href="#">Help</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#">Logout</a></li>
-                <li><a class="dropdown-item" href="#">Delete Account</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
+    <!-- Navbar -->
+    <header>
+      <a href="#" class="logo"><img src="./img/cyroom.png" alt="logo" width="135" height="45" /></a>
+      <input type="checkbox" id="menu-bar" />
+      <label for="menu-bar"><i class="bi bi-list"></i></label>
+      <div class="col-md-4">
+        <input type="search" class="form-control" id="search" aria-describedby="Search" placeholder="search" />
       </div>
-    </nav>
+      <nav class="navbar">
+        <ul>
+          <li>
+            <a href="#"><i class="bi bi-bookmarks-fill"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="bi bi-bell-fill"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="bi bi-people-fill"></i><i class="bi bi-caret-down-fill"></i></a>
+            <ul>
+              <li><a href="#">Web/App Development</a></li>
+              <li><a href="#">Data Mining</a></li>
+              <li><a href="#">Game Development</a></li>
+              <li><a href="#">Cyber Security</a></li>
+              <li><a href="#">UI/UX</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#"><i class="bi bi-house-fill"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="bi bi-person-circle"></i>&nbsp;&nbsp;@username</a> 
+            <ul>
+              <li><a href="#">Change Username</a></li>
+              <li><a href="#">Change Password</a></li>
+              <li><a href="#">Change Email</a></li>
+              <li><a href="#">Help</a></li>
+              <li><a href="#">Logout</a></li>
+              <li><a href="#">Delete Account</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
     <!--Akhir Navbar-->
 
     <!-- Bookmarks -->
