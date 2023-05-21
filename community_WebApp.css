@@ -758,7 +758,7 @@ header label {
     background-color: white;
     margin: 0 auto;
     width: 400px;
-    height: 270px;
+    height: 300px;
     border-radius: 0px 0px 20px 20px;
     padding: 0px 5px 0px 15px;
   }
@@ -773,7 +773,7 @@ header label {
 
   .quest-container2 p {
     margin: 0 auto;
-    font-size: 7.5px;
+    font-size: 8px;
     color: black;
     padding-left: 23px;
   }
