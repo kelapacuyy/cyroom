@@ -1,62 +1,43 @@
-<!DOCTYPE html>
-<html lang="english">
+<!doctype html>
+<html lang="en">
   <head>
-    <title>Login Cyroom</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta charset="utf-8" />
-    </style>
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
-      data-tag="font"
-    />
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <div>
-      <link href="./login.css" rel="stylesheet" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login | Cyroom</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
 
-      <div class="container">
-        <div class="login">
-          <div class="halamanutama"></div>
-          <div class="halamanutama2">
-            <span class="welcome"><span>Welcome to cyroom!</span></span>
-            <span class="logintoyouracc">
-              <span>Login to your account</span>
-            </span>
-            <button type="submit" value= "submit" class="button">Login</button>
-            <span class="forgotpass"><span>Forgot Password</span></span>
-            <span class="uname"><span>Username</span></span>
-            <span class="pw"><span>Password</span></span>
-            <span class="notregistered">Not registered?</span>
-            <a href="register.html" class="createacc">
-              Create an Account
-            </a>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <title>Login | Cyroom</title>
+  </head>
+  <body style="background: #081F37;">
+    <section class="login">
+        <div class="leftbox">
+          <div class="login-left">
           </div>
-          <input
-            type="text"
-            name="username"
-            value="username"
-            class="inputusername"
-          />
-          <input
-            type="password"
-            name="password"
-            value="password"
-            class="inputpw"
-          />
         </div>
-      </div>
-    </div>
+        <div class="rightbox">
+            <h1>Welcome to Cyroom!</h1>
+            <div class="form-username">
+              <h3>Username</h3>
+              <input type="username" class="form-uname" id="username" placeholder="enter your username">
+            </div>
+            <div class="form-password">
+              <h3>Password</h3>
+              <input type="password" class="form-pw" id="password" placeholder="enter your password">
+              <a href="#">Forgot Password</a>
+            </div>
+            <div class="button-login">
+              <input type="submit" class="submit" value="Login">
+            </div>
+            <div class="regis">
+              <span>Not registered? <a href="#">Create an account</a></span>
+          </div>
+        </div>
+    </section>
   </body>
 </html>
