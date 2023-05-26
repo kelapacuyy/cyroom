@@ -7,186 +7,107 @@ body {
   min-height: 100%;
   background-color: #081f37;
 }
-/* Navbar */
-.col-md-4 input {
-  border-radius: 20px;
-}
-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  background: #d6e4f0;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-  padding: 0px 30px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  z-index: 1000;
-}
 
-header .navbar {
-  text-decoration: none;
-}
-
-header .logo {
-  padding-left: 0;
-  margin-left: 0;
-  /* font-weight: bolder;
-    font-size: 25px;
-    color: rgb(0, 0, 93); */
-}
-header .navbar ul {
-  list-style: none;
-}
-header .navbar ul li {
-  position: relative;
-  float: left;
-}
-header .navbar ul li a {
-  font-size: 18px;
-  padding: 10px 15px;
-  color: black;
-  display: block;
-  text-decoration: none;
-}
-header .navbar ul li a:hover {
-  background: black;
-  color: white;
-}
-header .navbar ul li ul {
-  position: absolute;
-  left: 0;
-  width: 200px;
-  background: white;
-  display: none;
-}
-header .navbar ul li ul li {
-  width: 100%;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-header .navbar ul li ul li a {
-  font-size: 15px;
-}
-
-header .navbar ul li ul li ul {
-  left: 200px;
-  top: 0;
-}
-header .navbar ul li:focus-within > ul,
-header .navbar ul li:hover > ul {
-  display: initial;
-}
-
-#menu-bar {
-  display: none;
-}
-header label {
-  font-size: 20px;
-  color: #333;
-  cursor: pointer;
-  display: none;
-}
-
-/* Akhir Navbar */
-
-.com-name {
-  padding-top: 80px;
-}
+/* CSS COMMUNITY */
 
 .com-name h5 {
   color: white;
-  padding: 20px 20px 0px 60px;
+  padding: 20px 80px 0px 70px;
 }
+
 .com-name p {
   color: white;
-  padding: 0px 20px 0px 60px;
-  /* margin: 10px; */
+  padding: 0px 70px 0px 123px;
 }
+
 .quest-container {
+  margin: 0 auto;
+  width: 1350px;
+  padding-left: 15px;
   justify-content: center;
   background-color: white;
-  margin: 0 auto;
-  width: 400px;
-  height: 87px;
   border-radius: 20px 20px 0px 0px;
-  padding: 0px 0px 0px 15px;
+  max-height: 100%;
 }
 
 .quest-container h5 {
   color: black;
-  padding: 7px 0px 0px 0px;
   margin: 0 auto;
+  padding-top: 7px;
 }
 
 .quest-container p {
-  font-size: 10px;
   color: black;
   margin: 0 auto;
-  padding: 0px 0px 0px 25px;
+  font-size: 10px;
+  padding-left: 25px;
 }
 
 .quest-container h4 {
-  padding-top: 5px;
-  font-size: 10px;
   color: black;
-  font-size: 15px;
   margin: 0 auto;
-  padding: 5px 0px 0px 25px;
+  font-size: 15px;
+  padding: 15px 25px 15px 25px;
 }
 
 .icon-container {
-  width: 400px;
   height: 30px;
-  background-color: #dae6f1;
+  width: 1350px;
   margin: 0 auto;
+  padding-left: 25px;
+  background-color: #dae6f1;
+  max-height: 100%;
 }
 
 .icon-container p {
   font-size: 15px;
+  padding-top: 4px;
   padding-left: 17px;
-  padding-top: 3px;
 }
 
 .quest-container2 {
-  background-color: white;
+  width: 1350px;
   margin: 0 auto;
-  width: 400px;
-  height: 270px;
-  border-radius: 0px 0px 20px 20px;
   padding: 0px 5px 0px 15px;
+  background-color: white;
+  border-radius: 0px 0px 20px 20px;
+  max-height: 100%;
 }
 
 .quest-container2 h6 {
   margin: 0 auto;
-  padding-top: 5px;
-  font-size: 10px;
   color: black;
+  padding-top: 10px;
   font-size: 15px;
 }
 
 .quest-container2 p {
   margin: 0 auto;
-  font-size: 10px;
   color: black;
+  font-size: 12px;
   padding-left: 23px;
 }
 
+.quest-container2 p span {
+  color: blue;
+  font-style: italic;
+  text-decoration: underline;
+}
+
 .quest-container3 {
-  background-color: white;
+  width: 1350px;
   margin: 0 auto;
-  width: 400px;
-  height: 87px;
+  margin-top: 20px;
+  padding-left: 15px;
+  background-color: white;
   border-radius: 20px 20px 0px 0px;
-  padding: 0px 0px 0px 15px;
-  margin-top: 15px;
+  max-height: 100%;
 }
 
 .quest-container3 h5 {
   color: black;
-  padding: 7px 0px 0px 0px;
   margin: 0 auto;
+  padding-top: 7px;
 }
 
 .quest-container3 p {
@@ -198,639 +119,496 @@ header label {
 
 .quest-container3 h4 {
   margin: 0 auto;
-  padding-top: 10px;
-  font-size: 10px;
   color: black;
   font-size: 15px;
-  padding-left: 30px;
-}
-
-.icon-container2 {
-  margin: 0 auto;
-  padding-bottom: 50px;
-  width: 1110px;
-  height: 30px;
-  background-color: #dae6f1;
-}
-
-.icon-container2 p {
-  font-size: 15px;
-  padding-left: 17px;
-  padding-top: 3px;
+  padding: 15px 25px 15px 25px;
 }
 
 .quest-container4 {
-  background-color: white;
+  width: 1350px;
   margin: 0 auto;
-  width: 400px;
-  height: 87px;
+  padding-left: 15px;
+  background-color: white;
   border-radius: 0px 0px 20px 20px;
-  padding: 0px 0px 0px 15px;
+  max-height: 100%;
 }
 
-@media (max-width: 992px) {
-  .col-md-4 input {
-    border-radius: 20px;
-    position: left;
-    width: 200px;
-  }
-  header {
-    padding: 20px;
-  }
-  header label {
-    display: initial;
-  }
-  header .navbar {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    background: white;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    display: none;
-  }
-  header .navbar ul li {
-    width: 100%;
-  }
-  header .navbar ul li ul {
-    position: relative;
-    width: 100%;
-  }
-  header .navbar ul li ul li {
-    background: white;
-  }
-  header .navbar ul li ul li ul {
-    width: 100%;
-    left: 0;
-  }
-  #menu-bar:checked ~ .navbar {
-    display: initial;
-  }
+.quest-container4 h6 {
+  margin: 0 auto;
+  color: black;
+  padding-top: 10px;
+  font-size: 15px;
 }
 
-/* Community */
-
-/* @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .com-name {
-    padding-top: 80px;
-  }
-  .com-name h5 {
-    color: white;
-    padding: 20px 20px 0px 60px;
-  }
-  .com-name p {
-    color: white;
-    padding: 0px 20px 0px 60px;
-    /* margin: 10px; 
-  }
-  .quest-container {
-    justify-content: center;
-    background-color: white;
-    margin: 0 auto;
-    width: 400px;
-    height: 87px;
-    border-radius: 20px 20px 0px 0px;
-    padding: 0px 0px 0px 15px;
-  }
-
-  .quest-container h5 {
-    color: black;
-    padding: 7px 0px 0px 0px;
-    margin: 0 auto;
-  }
-
-  .quest-container p {
-    font-size: 10px;
-    color: black;
-    margin: 0 auto;
-    padding: 0px 0px 0px 25px;
-  }
-
-  .quest-container h4 {
-    padding-top: 5px;
-    font-size: 10px;
-    color: black;
-    font-size: 15px;
-    margin: 0 auto;
-    padding: 5px 0px 0px 25px;
-  }
-
-  .icon-container {
-    width: 400px;
-    height: 30px;
-    background-color: #dae6f1;
-    margin: 0 auto;
-  }
-
-  .icon-container p {
-    font-size: 15px;
-    padding-left: 17px;
-    padding-top: 3px;
-  }
-
-  .quest-container2 {
-    background-color: white;
-    margin: 0 auto;
-    width: 400px;
-    height: 270px;
-    border-radius: 0px 0px 20px 20px;
-    padding: 0px 5px 0px 15px;
-  }
-
-  .quest-container2 h6 {
-    margin: 0 auto;
-    padding-top: 5px;
-    font-size: 10px;
-    color: black;
-    font-size: 15px;
-  }
-
-  .quest-container2 p {
-    margin: 0 auto;
-    font-size: 10px;
-    color: black;
-    padding-left: 23px;
-  }
-
-  .quest-container3 {
-    background-color: white;
-    margin: 0 auto;
-    width: 400px;
-    height: 87px;
-    border-radius: 20px 20px 0px 0px;
-    padding: 0px 0px 0px 15px;
-    margin-top: 15px;
-  }
-
-  .quest-container3 h5 {
-    color: black;
-    padding: 7px 0px 0px 0px;
-    margin: 0 auto;
-  }
-
-  .quest-container3 p {
-    margin: 0 auto;
-    font-size: 10px;
-    color: black;
-    padding-left: 30px;
-  }
-
-  .quest-container3 h4 {
-    margin: 0 auto;
-    padding-top: 10px;
-    font-size: 10px;
-    color: black;
-    font-size: 15px;
-    padding-left: 30px;
-  }
-
-  .icon-container2 {
-    margin: 0 auto;
-    padding-bottom: 50px;
-    width: 1110px;
-    height: 30px;
-    background-color: #dae6f1;
-  }
-
-  .icon-container2 p {
-    font-size: 15px;
-    padding-left: 17px;
-    padding-top: 3px;
-  }
-
-  .quest-container4 {
-    background-color: white;
-    margin: 0 auto;
-    width: 400px;
-    height: 87px;
-    border-radius: 0px 0px 20px 20px;
-    padding: 0px 0px 0px 15px;
-  }
-} */
-
-@media only screen and (min-width: 600px) and (max-width:992px) {
-  .navbar-brand img {
-    display: none !important;
-  }
-
-  .com-name {
-    padding-top: 80px;
-  }
-
-  .com-name h5 {
-    color: white;
-    padding: 20px 20px 0px 60px;
-  }
-  .com-name p {
-    color: white;
-    padding: 0px 20px 0px 60px;
-    /* margin: 10px; */
-  }
-  .quest-container {
-    justify-content: center;
-    background-color: white;
-    margin: 0 auto;
-    width: 800px;
-    height: 87px;
-    border-radius: 20px 20px 0px 0px;
-    padding: 0px 0px 0px 15px;
-  }
-
-  .quest-container h5 {
-    color: black;
-    padding: 7px 0px 0px 0px;
-    margin: 0 auto;
-  }
-
-  .quest-container p {
-    font-size: 10px;
-    color: black;
-    margin: 0 auto;
-    padding: 0px 0px 0px 25px;
-  }
-
-  .quest-container h4 {
-    padding-top: 5px;
-    font-size: 10px;
-    color: black;
-    font-size: 15px;
-    margin: 0 auto;
-    padding: 5px 0px 0px 25px;
-  }
-
-  .icon-container {
-    width: 800px;
-    height: 30px;
-    background-color: #dae6f1;
-    margin: 0 auto;
-  }
-
-  .icon-container p {
-    font-size: 15px;
-    padding-left: 17px;
-    padding-top: 3px;
-  }
-
-  .quest-container2 {
-    background-color: white;
-    margin: 0 auto;
-    width: 800px;
-    height: 350px;
-    border-radius: 0px 0px 20px 20px;
-    padding: 0px 5px 0px 15px;
-  }
-
-  .quest-container2 h6 {
-    margin: 0 auto;
-    padding-top: 5px;
-    color: black;
-    font-size: 15px;
-  }
-
-  .quest-container2 p {
-    margin: 0 auto;
-    font-size: 12px;
-    color: black;
-    padding-left: 23px;
-  }
-
-  .quest-container3 {
-    background-color: white;
-    margin: 0 auto;
-    width: 800px;
-    height: 87px;
-    border-radius: 20px 20px 0px 0px;
-    padding: 0px 0px 0px 15px;
-    margin-top: 15px;
-  }
-
-  .quest-container3 h5 {
-    color: black;
-    padding: 7px 0px 0px 0px;
-    margin: 0 auto;
-  }
-
-  .quest-container3 p {
-    margin: 0 auto;
-    font-size: 10px;
-    color: black;
-    padding-left: 30px;
-  }
-
-  .quest-container3 h4 {
-    margin: 0 auto;
-    padding-top: 10px;
-    font-size: 10px;
-    color: black;
-    font-size: 15px;
-    padding-left: 30px;
-  }
-
-  .icon-container2 {
-    margin: 0 auto;
-    padding-bottom: 50px;
-    width: 1100px;
-    height: 30px;
-    background-color: #dae6f1;
-  }
-
-  .icon-container2 p {
-    font-size: 15px;
-    padding-left: 17px;
-    padding-top: 3px;
-  }
-
-  .quest-container4 {
-    background-color: white;
-    margin: 0 auto;
-    width: 800px;
-    height: 87px;
-    border-radius: 0px 0px 20px 20px;
-    padding: 0px 0px 0px 15px;
-  }
+.quest-container4 p {
+  color: black;
+  margin: 0 auto;
+  font-size: 12px;
+  padding-left: 25px;
 }
 
-@media only screen and (min-width: 992px) {
-  .navbar-brand img {
-    display: none !important;
-  }
-
-  .com-name {
-    padding-top: 80px;
-  }
-
-  .com-name h5 {
-    color: white;
-    padding: 20px 20px 0px 60px;
-  }
-  .com-name p {
-    color: white;
-    padding: 0px 20px 0px 60px;
-    /* margin: 10px; */
-  }
-  .quest-container {
-    justify-content: center;
-    background-color: white;
-    margin: 0 auto;
-    width: 1100px;
-    height: 87px;
-    border-radius: 20px 20px 0px 0px;
-    padding: 0px 0px 0px 15px;
-  }
-
-  .quest-container h5 {
-    color: black;
-    padding: 7px 0px 0px 0px;
-    margin: 0 auto;
-  }
-
-  .quest-container p {
-    font-size: 10px;
-    color: black;
-    margin: 0 auto;
-    padding: 0px 0px 0px 25px;
-  }
-
-  .quest-container h4 {
-    padding-top: 5px;
-    font-size: 10px;
-    color: black;
-    font-size: 15px;
-    margin: 0 auto;
-    padding: 5px 0px 0px 25px;
-  }
-
-  .icon-container {
-    width: 1100px;
-    height: 30px;
-    background-color: #dae6f1;
-    margin: 0 auto;
-  }
-
-  .icon-container p {
-    font-size: 15px;
-    padding-left: 17px;
-    padding-top: 3px;
-  }
-
-  .quest-container2 {
-    background-color: white;
-    margin: 0 auto;
-    width: 1100px;
-    height: 340px;
-    border-radius: 0px 0px 20px 20px;
-    padding: 0px 5px 0px 15px;
-  }
-
-  .quest-container2 h6 {
-    margin: 0 auto;
-    padding-top: 5px;
-    color: black;
-    font-size: 15px;
-  }
-
-  .quest-container2 p {
-    margin: 0 auto;
-    font-size: 12px;
-    color: black;
-    padding-left: 23px;
-  }
-
-  .quest-container3 {
-    background-color: white;
-    margin: 0 auto;
-    width: 1100px;
-    height: 87px;
-    border-radius: 20px 20px 0px 0px;
-    padding: 0px 0px 0px 15px;
-    margin-top: 15px;
-  }
-
-  .quest-container3 h5 {
-    color: black;
-    padding: 7px 0px 0px 0px;
-    margin: 0 auto;
-  }
-
-  .quest-container3 p {
-    margin: 0 auto;
-    font-size: 10px;
-    color: black;
-    padding-left: 30px;
-  }
-
-  .quest-container3 h4 {
-    margin: 0 auto;
-    padding-top: 10px;
-    font-size: 10px;
-    color: black;
-    font-size: 15px;
-    padding-left: 30px;
-  }
-
-  .icon-container2 {
-    margin: 0 auto;
-    padding-bottom: 50px;
-    width: 1100px;
-    height: 30px;
-    background-color: #dae6f1;
-  }
-
-  .icon-container2 p {
-    font-size: 15px;
-    padding-left: 17px;
-    padding-top: 3px;
-  }
-
-  .quest-container4 {
-    background-color: white;
-    margin: 0 auto;
-    width: 1100px;
-    height: 87px;
-    border-radius: 0px 0px 20px 20px;
-    padding: 0px 0px 0px 15px;
-  }
+.quest-container4 p span {
+  color: blue;
+  font-style: italic;
+  text-decoration: underline;
 }
 
-@media only screen and (max-width: 700px) {
-  .navbar-brand img {
-    display: none !important;
-  }
-  .com-name {
-    padding-top: 80px;
-  }
+.quest-container5 {
+  margin: 0 auto;
+  width: 1350px;
+  margin-top: 20px;
+  padding-left: 15px;
+  justify-content: center;
+  background-color: white;
+  border-radius: 20px 20px 0px 0px;
+  max-height: 100%;
+}
+
+.quest-container5 h5 {
+  color: black;
+  margin: 0 auto;
+  padding-top: 7px;
+}
+
+.quest-container5 p {
+  color: black;
+  margin: 0 auto;
+  font-size: 10px;
+  padding-left: 25px;
+}
+
+.quest-container5 h4 {
+  color: black;
+  margin: 0 auto;
+  font-size: 15px;
+  padding: 15px 25px 15px 25px;
+}
+
+.quest-container6 {
+  width: 1350px;
+  margin: 0 auto;
+  padding: 0px 5px 0px 15px;
+  background-color: white;
+  border-radius: 0px 0px 20px 20px;
+  max-height: 100%;
+}
+
+.quest-container6 h6 {
+  margin: 0 auto;
+  color: black;
+  padding-top: 10px;
+  font-size: 15px;
+}
+
+.quest-container6 p {
+  margin: 0 auto;
+  color: black;
+  font-size: 12px;
+  padding-left: 23px;
+}
+
+.quest-container6 p span {
+  color: blue;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+/* END OF CSS COMMUNITY */
+
+/* CSS FOR RESPONSIVE PAGES */
+
+/* COMMUNITY */
+
+@media only screen and (max-width: 490px) {
   .com-name h5 {
     color: white;
-    padding: 20px 20px 0px 60px;
+    padding: 20px 0px 0px 25px;
   }
+
   .com-name p {
     color: white;
-    padding: 0px 20px 0px 60px;
-    font-size: 12px;
-    /* margin: 10px; */
-  }
-  .quest-container {
-    justify-content: center;
-    background-color: white;
-    margin: 0 auto;
-    width: 400px;
-    height: 87px;
-    border-radius: 20px 20px 0px 0px;
-    padding: 0px 0px 0px 15px;
-  }
-
-  .quest-container h5 {
-    color: black;
-    padding: 7px 0px 0px 0px;
-    margin: 0 auto;
-  }
-
-  .quest-container p {
-    font-size: 10px;
-    color: black;
-    margin: 0 auto;
-    padding: 0px 0px 0px 25px;
-  }
-
-  .quest-container h4 {
-    padding-top: 5px;
-    font-size: 10px;
-    color: black;
-    font-size: 15px;
-    margin: 0 auto;
-    padding: 5px 0px 0px 25px;
-  }
-
-  .icon-container {
-    width: 400px;
-    height: 30px;
-    background-color: #dae6f1;
-    margin: 0 auto;
+    padding: 0px 25px 0px 25px;
   }
 
   .icon-container p {
     font-size: 8px;
-    padding-left: 17px;
-    padding-top: 8px;
-  }
-
-  .quest-container2 {
-    background-color: white;
-    margin: 0 auto;
-    width: 400px;
-    height: 300px;
-    border-radius: 0px 0px 20px 20px;
-    padding: 0px 5px 0px 15px;
-  }
-
-  .quest-container2 h6 {
-    margin: 0 auto;
-    padding-top: 5px;
-    font-size: 10px;
-    color: black;
-    font-size: 15px;
-  }
-
-  .quest-container2 p {
-    margin: 0 auto;
-    font-size: 8px;
-    color: black;
-    padding-left: 23px;
-  }
-
-  .quest-container3 {
-    background-color: white;
-    margin: 0 auto;
-    width: 400px;
-    height: 87px;
-    border-radius: 20px 20px 0px 0px;
-    padding: 0px 0px 0px 15px;
-    margin-top: 15px;
-  }
-
-  .quest-container3 h5 {
-    color: black;
-    padding: 7px 0px 0px 0px;
-    margin: 0 auto;
-  }
-
-  .quest-container3 p {
-    margin: 0 auto;
-    font-size: 10px;
-    color: black;
-    padding-left: 30px;
-  }
-
-  .quest-container3 h4 {
-    margin: 0 auto;
-    padding-top: 10px;
-    font-size: 10px;
-    color: black;
-    font-size: 15px;
-    padding-left: 30px;
-  }
-
-  .icon-container2 {
-    margin: 0 auto;
-    padding-bottom: 50px;
-    width: 1110px;
-    height: 30px;
-    background-color: #dae6f1;
-  }
-
-  .icon-container2 p {
-    font-size: 8px;
-    padding-left: 17px;
-    padding-top: 8px;
-  }
-
-  .quest-container4 {
-    background-color: white;
-    margin: 0 auto;
-    width: 400px;
-    height: 87px;
-    border-radius: 0px 0px 20px 20px;
-    padding: 0px 0px 0px 15px;
+    padding-top: 7px;
+    padding-right: 5px;
   }
 }
-/* Akhir Community */
+@media only screen and (min-width: 490px) and (max-width: 550px) {
+  .com-name h5 {
+    color: white;
+    padding: 20px 0px 0px 25px;
+  }
+
+  .com-name p {
+    color: white;
+    padding: 0px 25px 0px 25px;
+  }
+
+  .icon-container p {
+    font-size: 9px;
+    padding-top: 7px;
+    padding-right: 5px;
+  }
+}
+@media only screen and (min-width: 550px) and (max-width: 700px) {
+  .com-name h5 {
+    color: white;
+    padding: 20px 0px 0px 35px;
+  }
+
+  .com-name p {
+    color: white;
+    padding: 0px 30px 0px 35px;
+  }
+
+  .icon-container p {
+    font-size: 10px;
+    padding-top: 7px;
+    padding-right: 5px;
+  }
+}
+@media only screen and (min-width: 700px) and (max-width: 972px) {
+  .com-name h5 {
+    color: white;
+    padding: 20px 0px 0px 50px;
+  }
+
+  .com-name p {
+    color: white;
+    padding: 0px 30px 0px 55px;
+  }
+
+  .icon-container p {
+    font-size: 12px;
+    padding-top: 7px;
+    padding-right: 5px;
+  }
+}
+@media only screen and (min-width: 972px) and (max-width: 1100px) {
+  .com-name h5 {
+    color: white;
+    padding: 20px 0px 0px 70px;
+  }
+
+  .com-name p {
+    color: white;
+    padding: 0px 30px 0px 75px;
+  }
+
+  .icon-container p {
+    font-size: 14px;
+    padding-top: 6px;
+    padding-right: 5px;
+  }
+}
+/* END OF RESPONSIVE CSS COMMUNITY */
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+body {
+  min-height: 100%;
+  background-color: #081f37;
+}
+
+/* CSS COMMUNITY */
+
+.com-name h5 {
+  color: white;
+  padding: 20px 80px 0px 70px;
+}
+
+.com-name p {
+  color: white;
+  padding: 0px 70px 0px 123px;
+}
+
+.quest-container {
+  margin: 0 auto;
+  width: 1350px;
+  padding-left: 15px;
+  justify-content: center;
+  background-color: white;
+  border-radius: 20px 20px 0px 0px;
+  max-height: 100%;
+}
+
+.quest-container h5 {
+  color: black;
+  margin: 0 auto;
+  padding-top: 7px;
+}
+
+.quest-container p {
+  color: black;
+  margin: 0 auto;
+  font-size: 10px;
+  padding-left: 25px;
+}
+
+.quest-container h4 {
+  color: black;
+  margin: 0 auto;
+  font-size: 15px;
+  padding: 15px 25px 15px 25px;
+}
+
+.icon-container {
+  height: 30px;
+  width: 1350px;
+  margin: 0 auto;
+  padding-left: 25px;
+  background-color: #dae6f1;
+  max-height: 100%;
+}
+
+.icon-container p {
+  font-size: 15px;
+  padding-top: 4px;
+  padding-left: 17px;
+}
+
+.quest-container2 {
+  width: 1350px;
+  margin: 0 auto;
+  padding: 0px 5px 0px 15px;
+  background-color: white;
+  border-radius: 0px 0px 20px 20px;
+  max-height: 100%;
+}
+
+.quest-container2 h6 {
+  margin: 0 auto;
+  color: black;
+  padding-top: 10px;
+  font-size: 15px;
+}
+
+.quest-container2 p {
+  margin: 0 auto;
+  color: black;
+  font-size: 12px;
+  padding-left: 23px;
+}
+
+.quest-container2 p span {
+  color: blue;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.quest-container3 {
+  width: 1350px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding-left: 15px;
+  background-color: white;
+  border-radius: 20px 20px 0px 0px;
+  max-height: 100%;
+}
+
+.quest-container3 h5 {
+  color: black;
+  margin: 0 auto;
+  padding-top: 7px;
+}
+
+.quest-container3 p {
+  margin: 0 auto;
+  font-size: 10px;
+  color: black;
+  padding-left: 30px;
+}
+
+.quest-container3 h4 {
+  margin: 0 auto;
+  color: black;
+  font-size: 15px;
+  padding: 15px 25px 15px 25px;
+}
+
+.quest-container4 {
+  width: 1350px;
+  margin: 0 auto;
+  padding-left: 15px;
+  background-color: white;
+  border-radius: 0px 0px 20px 20px;
+  max-height: 100%;
+}
+
+.quest-container4 h6 {
+  margin: 0 auto;
+  color: black;
+  padding-top: 10px;
+  font-size: 15px;
+}
+
+.quest-container4 p {
+  color: black;
+  margin: 0 auto;
+  font-size: 12px;
+  padding-left: 25px;
+}
+
+.quest-container4 p span {
+  color: blue;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.quest-container5 {
+  margin: 0 auto;
+  width: 1350px;
+  margin-top: 20px;
+  padding-left: 15px;
+  justify-content: center;
+  background-color: white;
+  border-radius: 20px 20px 0px 0px;
+  max-height: 100%;
+}
+
+.quest-container5 h5 {
+  color: black;
+  margin: 0 auto;
+  padding-top: 7px;
+}
+
+.quest-container5 p {
+  color: black;
+  margin: 0 auto;
+  font-size: 10px;
+  padding-left: 25px;
+}
+
+.quest-container5 h4 {
+  color: black;
+  margin: 0 auto;
+  font-size: 15px;
+  padding: 15px 25px 15px 25px;
+}
+
+.quest-container6 {
+  width: 1350px;
+  margin: 0 auto;
+  padding: 0px 5px 0px 15px;
+  background-color: white;
+  border-radius: 0px 0px 20px 20px;
+  max-height: 100%;
+}
+
+.quest-container6 h6 {
+  margin: 0 auto;
+  color: black;
+  padding-top: 10px;
+  font-size: 15px;
+}
+
+.quest-container6 p {
+  margin: 0 auto;
+  color: black;
+  font-size: 12px;
+  padding-left: 23px;
+}
+
+.quest-container6 p span {
+  color: blue;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+/* END OF CSS COMMUNITY */
+
+/* CSS FOR RESPONSIVE PAGES */
+
+/* COMMUNITY */
+
+@media only screen and (max-width: 490px) {
+  .com-name h5 {
+    color: white;
+    padding: 20px 0px 0px 25px;
+  }
+
+  .com-name p {
+    color: white;
+    padding: 0px 25px 0px 25px;
+  }
+
+  .icon-container p {
+    font-size: 8px;
+    padding-top: 7px;
+    padding-right: 5px;
+  }
+}
+@media only screen and (min-width: 490px) and (max-width: 550px) {
+  .com-name h5 {
+    color: white;
+    padding: 20px 0px 0px 25px;
+  }
+
+  .com-name p {
+    color: white;
+    padding: 0px 25px 0px 25px;
+  }
+
+  .icon-container p {
+    font-size: 9px;
+    padding-top: 7px;
+    padding-right: 5px;
+  }
+}
+@media only screen and (min-width: 550px) and (max-width: 700px) {
+  .com-name h5 {
+    color: white;
+    padding: 20px 0px 0px 35px;
+  }
+
+  .com-name p {
+    color: white;
+    padding: 0px 30px 0px 35px;
+  }
+
+  .icon-container p {
+    font-size: 10px;
+    padding-top: 7px;
+    padding-right: 5px;
+  }
+}
+@media only screen and (min-width: 700px) and (max-width: 972px) {
+  .com-name h5 {
+    color: white;
+    padding: 20px 0px 0px 50px;
+  }
+
+  .com-name p {
+    color: white;
+    padding: 0px 30px 0px 55px;
+  }
+
+  .icon-container p {
+    font-size: 12px;
+    padding-top: 7px;
+    padding-right: 5px;
+  }
+}
+@media only screen and (min-width: 972px) and (max-width: 1100px) {
+  .com-name h5 {
+    color: white;
+    padding: 20px 0px 0px 70px;
+  }
+
+  .com-name p {
+    color: white;
+    padding: 0px 30px 0px 75px;
+  }
+
+  .icon-container p {
+    font-size: 14px;
+    padding-top: 6px;
+    padding-right: 5px;
+  }
+}
+/* END OF RESPONSIVE CSS COMMUNITY */
