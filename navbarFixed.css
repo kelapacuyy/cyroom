@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+body {
+  min-height: 100%;
+  background-color: #081f37;
+}
+
+/* CSS NAVBAR */
+.col-md-4 input {
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+header {
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  z-index: 1000;
+  position: fixed;
+  padding: 0px 30px;
+  align-items: center;
+  background: #d6e4f0;
+  justify-content: space-between;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+header .navbar {
+  text-decoration: none;
+}
+
+header .logo {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+header .navbar ul {
+  list-style: none;
+}
+
+header .navbar ul li {
+  float: left;
+  position: relative;
+}
+
+header .navbar ul li a {
+  color: black;
+  display: block;
+  font-size: 18px;
+  padding: 10px 15px;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+header .navbar ul li a:hover {
+  color: white;
+  background: black;
+}
+
+header .navbar ul li ul {
+  left: 0;
+  width: 200px;
+  display: none;
+  position: absolute;
+  background: white;
+}
+
+header .navbar ul li ul li {
+  width: 100%;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+header .navbar ul li ul li a {
+  font-size: 15px;
+}
+
+header .navbar ul li ul li ul {
+  top: 0;
+  left: 200px;
+}
+header .navbar ul li:focus-within > ul,
+header .navbar ul li:hover > ul {
+  display: initial;
+}
+
+#menu-bar {
+  display: none;
+}
+header label {
+  display: none;
+  color: #333;
+  cursor: pointer;
+  font-size: 20px;
+}
+/* AKHIR CSS NAVBAR */
+
+/* CSS FOR RESPONSIVE PAGES */
+
+/* CSS NAVBAR */
+@media (max-width: 992px) {
+  .col-md-4 input {
+    border-radius: 20px;
+    position: left;
+    width: 200px;
+  }
+  header {
+    padding: 20px;
+  }
+  header label {
+    display: initial;
+  }
+  header .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    display: none;
+  }
+  header .navbar ul li {
+    width: 100%;
+  }
+  header .navbar ul li ul {
+    position: relative;
+    width: 100%;
+  }
+  header .navbar ul li ul li {
+    background: white;
+  }
+  header .navbar ul li ul li ul {
+    width: 100%;
+    left: 0;
+  }
+  #menu-bar:checked ~ .navbar {
+    display: initial;
+  }
+}
+/* AKHIR CSS NAVBAR */
