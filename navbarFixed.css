@@ -97,6 +97,315 @@ header label {
 }
 /* AKHIR CSS NAVBAR */
 
+/* CSS ASK BAR */
+.box {
+  width: 100%;
+  margin: 30px 0px 30px 75px;
+  /* background: rgba(255,255,255,0.2); */
+  /* padding: 20px; */
+  /* border: 2px solid #333; */
+  border-radius: 20px; 
+  /* border-radius : 20px/50px */
+  /* background-clip: padding-box; */
+  text-align: start;
+}
+
+.button {
+  font-size: 1em;
+  padding: 10px;
+  color: black;
+  /* border: 2px solid #06D85F; */
+  border-radius: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  background-color: white;
+  width: 500px;
+}
+.button:hover {
+  background: white;
+  color: black;
+  font-style: bold;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  height: 600px;
+  padding: 50px;
+  background: #081F37;
+  border-radius: 15px;
+  width: 70%;
+  position: relative;
+  transition: all 5s ease-in-out;
+  color: white;
+}
+
+.popup h5 {
+  margin-top: 0;
+  color: rgb(189, 188, 188);
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup hr{
+  height: 3px;
+}
+.popup input{
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.popup textarea{
+  max-height: 100%;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+/* END OF NAVBAR CSS */
+
+/* CSS HOMEPAGE */
+.ask-container {
+  margin: 20px 0px 20px 70px;
+  background-color: white;
+  width: 305px;
+  height: 40px;
+  border-radius: 20px;
+  padding: 7px 0px 0px 35px;
+}
+
+.ask-container p {
+  text-align: left;
+  color: black;
+  justify-content: center;
+}
+
+.ask-container p a {
+  text-decoration: none;
+  color: black;
+}
+
+.quest-container {
+  margin: 0 auto;
+  width: 1350px;
+  padding-left: 15px;
+  justify-content: center;
+  background-color: white;
+  border-radius: 20px 20px 0px 0px;
+  max-height: 100%;
+}
+
+.quest-container h5 {
+  color: black;
+  margin: 0 auto;
+  padding-top: 7px;
+}
+
+.quest-container p {
+  color: black;
+  margin: 0 auto;
+  font-size: 10px;
+  padding-left: 25px;
+}
+
+.quest-container h4 {
+  color: black;
+  margin: 0 auto;
+  font-size: 15px;
+  padding: 15px 25px 15px 25px;
+}
+
+.icon-container {
+  height: 30px;
+  width: 1350px;
+  margin: 0 auto;
+  padding-left: 25px;
+  background-color: #dae6f1;
+  max-height: 100%;
+}
+
+.icon-container p {
+  font-size: 15px;
+  padding-top: 4px;
+  padding-left: 17px;
+}
+
+.quest-container2 {
+  width: 1350px;
+  margin: 0 auto;
+  padding: 0px 5px 0px 15px;
+  background-color: white;
+  border-radius: 0px 0px 20px 20px;
+  max-height: 100%;
+}
+
+.quest-container2 h6 {
+  margin: 0 auto;
+  color: black;
+  padding-top: 10px;
+  font-size: 15px;
+}
+
+.quest-container2 p {
+  margin: 0 auto;
+  color: black;
+  font-size: 12px;
+  padding-left: 23px;
+}
+
+.quest-container2 p span {
+  color: blue;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.quest-container3 {
+  width: 1350px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding-left: 15px;
+  background-color: white;
+  border-radius: 20px 20px 0px 0px;
+  max-height: 100%;
+}
+
+.quest-container3 h5 {
+  color: black;
+  margin: 0 auto;
+  padding-top: 7px;
+}
+
+.quest-container3 p {
+  margin: 0 auto;
+  font-size: 10px;
+  color: black;
+  padding-left: 30px;
+}
+
+.quest-container3 h4 {
+  margin: 0 auto;
+  color: black;
+  font-size: 15px;
+  padding: 15px 25px 15px 25px;
+}
+
+.quest-container4 {
+  width: 1350px;
+  margin: 0 auto;
+  padding-left: 15px;
+  background-color: white;
+  border-radius: 0px 0px 20px 20px;
+  max-height: 100%;
+}
+
+.quest-container4 h6 {
+  margin: 0 auto;
+  color: black;
+  padding-top: 10px;
+  font-size: 15px;
+}
+
+.quest-container4 p {
+  color: black;
+  margin: 0 auto;
+  font-size: 12px;
+  padding-left: 25px;
+}
+
+.quest-container4 p span {
+  color: blue;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.quest-container5 {
+  margin: 0 auto;
+  width: 1350px;
+  margin-top: 20px;
+  padding-left: 15px;
+  justify-content: center;
+  background-color: white;
+  border-radius: 20px 20px 0px 0px;
+  max-height: 100%;
+}
+
+.quest-container5 h5 {
+  color: black;
+  margin: 0 auto;
+  padding-top: 7px;
+}
+
+.quest-container5 p {
+  color: black;
+  margin: 0 auto;
+  font-size: 10px;
+  padding-left: 25px;
+}
+
+.quest-container5 h4 {
+  color: black;
+  margin: 0 auto;
+  font-size: 15px;
+  padding: 15px 25px 15px 25px;
+}
+
+.quest-container6 {
+  width: 1350px;
+  margin: 0 auto;
+  padding: 0px 5px 0px 15px;
+  background-color: white;
+  border-radius: 0px 0px 20px 20px;
+  max-height: 100%;
+}
+
+.quest-container6 h6 {
+  margin: 0 auto;
+  color: black;
+  padding-top: 10px;
+  font-size: 15px;
+}
+
+.quest-container6 p {
+  margin: 0 auto;
+  color: black;
+  font-size: 12px;
+  padding-left: 23px;
+}
+
+.quest-container6 p span {
+  color: blue;
+  font-style: italic;
+  text-decoration: underline;
+}
+/* END OF CSS HOMEPAGE */
+
 /* CSS FOR RESPONSIVE PAGES */
 
 /* CSS NAVBAR */
@@ -140,3 +449,86 @@ header label {
   }
 }
 /* AKHIR CSS NAVBAR */
+
+/* CSS RESPONSIVE HOMEPAGE */
+@media only screen and (max-width: 490px) {
+  .ask-container {
+    margin: 20px 0px 20px 25px;
+    background-color: white;
+    width: 305px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 7px 0px 0px 35px;
+  }
+
+  .icon-container p {
+    font-size: 8px;
+    padding-top: 7px;
+    padding-right: 5px;
+  }
+}
+@media only screen and (min-width: 490px) and (max-width: 550px) {
+  .ask-container {
+    margin: 20px 0px 20px 30px;
+    background-color: white;
+    width: 305px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 7px 0px 0px 35px;
+  }
+
+  .icon-container p {
+    font-size: 9px;
+    padding-top: 7px;
+    padding-right: 5px;
+  }
+}
+@media only screen and (min-width: 550px) and (max-width: 700px) {
+  .ask-container {
+    margin: 20px 0px 20px 35px;
+    background-color: white;
+    width: 305px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 7px 0px 0px 35px;
+  }
+
+  .icon-container p {
+    font-size: 10px;
+    padding-top: 7px;
+    padding-right: 5px;
+  }
+}
+@media only screen and (min-width: 700px) and (max-width: 972px) {
+  .ask-container {
+    margin: 20px 0px 20px 40px;
+    background-color: white;
+    width: 305px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 7px 0px 0px 35px;
+  }
+
+  .icon-container p {
+    font-size: 12px;
+    padding-top: 7px;
+    padding-right: 5px;
+  }
+}
+@media only screen and (min-width: 972px) and (max-width: 1100px) {
+  .ask-container {
+    margin: 20px 0px 20px 50px;
+    background-color: white;
+    width: 305px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 7px 0px 0px 35px;
+  }
+
+  .icon-container p {
+    font-size: 14px;
+    padding-top: 6px;
+    padding-right: 5px;
+  }
+}
+/* AKHIR RESPONSIVE HOMEPAGE */
