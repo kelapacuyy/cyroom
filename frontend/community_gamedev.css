@@ -1,0 +1,614 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+body {
+  min-height: 100%;
+  background-color: #081f37;
+}
+
+/* CSS COMMUNITY */
+
+.com-name h5 {
+  color: white;
+  padding: 20px 80px 0px 70px;
+}
+
+.com-name p {
+  color: white;
+  padding: 0px 70px 0px 123px;
+}
+
+.quest-container {
+  margin: 0 auto;
+  width: 1350px;
+  padding-left: 15px;
+  justify-content: center;
+  background-color: white;
+  border-radius: 20px 20px 0px 0px;
+  max-height: 100%;
+}
+
+.quest-container h5 {
+  color: black;
+  margin: 0 auto;
+  padding-top: 7px;
+}
+
+.quest-container p {
+  color: black;
+  margin: 0 auto;
+  font-size: 10px;
+  padding-left: 25px;
+}
+
+.quest-container h4 {
+  color: black;
+  margin: 0 auto;
+  font-size: 15px;
+  padding: 15px 25px 15px 25px;
+}
+
+.icon-container {
+  height: 30px;
+  width: 1350px;
+  margin: 0 auto;
+  padding-left: 25px;
+  background-color: #dae6f1;
+  max-height: 100%;
+}
+
+.icon-container p {
+  font-size: 15px;
+  padding-top: 4px;
+  padding-left: 17px;
+}
+
+.quest-container2 {
+  width: 1350px;
+  margin: 0 auto;
+  padding: 0px 5px 0px 15px;
+  background-color: white;
+  border-radius: 0px 0px 20px 20px;
+  max-height: 100%;
+}
+
+.quest-container2 h6 {
+  margin: 0 auto;
+  color: black;
+  padding-top: 10px;
+  font-size: 15px;
+}
+
+.quest-container2 p {
+  margin: 0 auto;
+  color: black;
+  font-size: 12px;
+  padding-left: 23px;
+}
+
+.quest-container2 p span {
+  color: blue;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.quest-container3 {
+  width: 1350px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding-left: 15px;
+  background-color: white;
+  border-radius: 20px 20px 0px 0px;
+  max-height: 100%;
+}
+
+.quest-container3 h5 {
+  color: black;
+  margin: 0 auto;
+  padding-top: 7px;
+}
+
+.quest-container3 p {
+  margin: 0 auto;
+  font-size: 10px;
+  color: black;
+  padding-left: 30px;
+}
+
+.quest-container3 h4 {
+  margin: 0 auto;
+  color: black;
+  font-size: 15px;
+  padding: 15px 25px 15px 25px;
+}
+
+.quest-container4 {
+  width: 1350px;
+  margin: 0 auto;
+  padding-left: 15px;
+  background-color: white;
+  border-radius: 0px 0px 20px 20px;
+  max-height: 100%;
+}
+
+.quest-container4 h6 {
+  margin: 0 auto;
+  color: black;
+  padding-top: 10px;
+  font-size: 15px;
+}
+
+.quest-container4 p {
+  color: black;
+  margin: 0 auto;
+  font-size: 12px;
+  padding-left: 25px;
+}
+
+.quest-container4 p span {
+  color: blue;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.quest-container5 {
+  margin: 0 auto;
+  width: 1350px;
+  margin-top: 20px;
+  padding-left: 15px;
+  justify-content: center;
+  background-color: white;
+  border-radius: 20px 20px 0px 0px;
+  max-height: 100%;
+}
+
+.quest-container5 h5 {
+  color: black;
+  margin: 0 auto;
+  padding-top: 7px;
+}
+
+.quest-container5 p {
+  color: black;
+  margin: 0 auto;
+  font-size: 10px;
+  padding-left: 25px;
+}
+
+.quest-container5 h4 {
+  color: black;
+  margin: 0 auto;
+  font-size: 15px;
+  padding: 15px 25px 15px 25px;
+}
+
+.quest-container6 {
+  width: 1350px;
+  margin: 0 auto;
+  padding: 0px 5px 0px 15px;
+  background-color: white;
+  border-radius: 0px 0px 20px 20px;
+  max-height: 100%;
+}
+
+.quest-container6 h6 {
+  margin: 0 auto;
+  color: black;
+  padding-top: 10px;
+  font-size: 15px;
+}
+
+.quest-container6 p {
+  margin: 0 auto;
+  color: black;
+  font-size: 12px;
+  padding-left: 23px;
+}
+
+.quest-container6 p span {
+  color: blue;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+/* END OF CSS COMMUNITY */
+
+/* CSS FOR RESPONSIVE PAGES */
+
+/* COMMUNITY */
+
+@media only screen and (max-width: 490px) {
+  .com-name h5 {
+    color: white;
+    padding: 20px 0px 0px 25px;
+  }
+
+  .com-name p {
+    color: white;
+    padding: 0px 25px 0px 25px;
+  }
+
+  .icon-container p {
+    font-size: 8px;
+    padding-top: 7px;
+    padding-right: 5px;
+  }
+}
+@media only screen and (min-width: 490px) and (max-width: 550px) {
+  .com-name h5 {
+    color: white;
+    padding: 20px 0px 0px 25px;
+  }
+
+  .com-name p {
+    color: white;
+    padding: 0px 25px 0px 25px;
+  }
+
+  .icon-container p {
+    font-size: 9px;
+    padding-top: 7px;
+    padding-right: 5px;
+  }
+}
+@media only screen and (min-width: 550px) and (max-width: 700px) {
+  .com-name h5 {
+    color: white;
+    padding: 20px 0px 0px 35px;
+  }
+
+  .com-name p {
+    color: white;
+    padding: 0px 30px 0px 35px;
+  }
+
+  .icon-container p {
+    font-size: 10px;
+    padding-top: 7px;
+    padding-right: 5px;
+  }
+}
+@media only screen and (min-width: 700px) and (max-width: 972px) {
+  .com-name h5 {
+    color: white;
+    padding: 20px 0px 0px 50px;
+  }
+
+  .com-name p {
+    color: white;
+    padding: 0px 30px 0px 55px;
+  }
+
+  .icon-container p {
+    font-size: 12px;
+    padding-top: 7px;
+    padding-right: 5px;
+  }
+}
+@media only screen and (min-width: 972px) and (max-width: 1100px) {
+  .com-name h5 {
+    color: white;
+    padding: 20px 0px 0px 70px;
+  }
+
+  .com-name p {
+    color: white;
+    padding: 0px 30px 0px 75px;
+  }
+
+  .icon-container p {
+    font-size: 14px;
+    padding-top: 6px;
+    padding-right: 5px;
+  }
+}
+/* END OF RESPONSIVE CSS COMMUNITY */
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+body {
+  min-height: 100%;
+  background-color: #081f37;
+}
+
+/* CSS COMMUNITY */
+
+.com-name h5 {
+  color: white;
+  padding: 20px 80px 0px 70px;
+}
+
+.com-name p {
+  color: white;
+  padding: 0px 70px 0px 123px;
+}
+
+.quest-container {
+  margin: 0 auto;
+  width: 1350px;
+  padding-left: 15px;
+  justify-content: center;
+  background-color: white;
+  border-radius: 20px 20px 0px 0px;
+  max-height: 100%;
+}
+
+.quest-container h5 {
+  color: black;
+  margin: 0 auto;
+  padding-top: 7px;
+}
+
+.quest-container p {
+  color: black;
+  margin: 0 auto;
+  font-size: 10px;
+  padding-left: 25px;
+}
+
+.quest-container h4 {
+  color: black;
+  margin: 0 auto;
+  font-size: 15px;
+  padding: 15px 25px 15px 25px;
+}
+
+.icon-container {
+  height: 30px;
+  width: 1350px;
+  margin: 0 auto;
+  padding-left: 25px;
+  background-color: #dae6f1;
+  max-height: 100%;
+}
+
+.icon-container p {
+  font-size: 15px;
+  padding-top: 4px;
+  padding-left: 17px;
+}
+
+.quest-container2 {
+  width: 1350px;
+  margin: 0 auto;
+  padding: 0px 5px 0px 15px;
+  background-color: white;
+  border-radius: 0px 0px 20px 20px;
+  max-height: 100%;
+}
+
+.quest-container2 h6 {
+  margin: 0 auto;
+  color: black;
+  padding-top: 10px;
+  font-size: 15px;
+}
+
+.quest-container2 p {
+  margin: 0 auto;
+  color: black;
+  font-size: 12px;
+  padding-left: 23px;
+}
+
+.quest-container2 p span {
+  color: blue;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.quest-container3 {
+  width: 1350px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding-left: 15px;
+  background-color: white;
+  border-radius: 20px 20px 0px 0px;
+  max-height: 100%;
+}
+
+.quest-container3 h5 {
+  color: black;
+  margin: 0 auto;
+  padding-top: 7px;
+}
+
+.quest-container3 p {
+  margin: 0 auto;
+  font-size: 10px;
+  color: black;
+  padding-left: 30px;
+}
+
+.quest-container3 h4 {
+  margin: 0 auto;
+  color: black;
+  font-size: 15px;
+  padding: 15px 25px 15px 25px;
+}
+
+.quest-container4 {
+  width: 1350px;
+  margin: 0 auto;
+  padding-left: 15px;
+  background-color: white;
+  border-radius: 0px 0px 20px 20px;
+  max-height: 100%;
+}
+
+.quest-container4 h6 {
+  margin: 0 auto;
+  color: black;
+  padding-top: 10px;
+  font-size: 15px;
+}
+
+.quest-container4 p {
+  color: black;
+  margin: 0 auto;
+  font-size: 12px;
+  padding-left: 25px;
+}
+
+.quest-container4 p span {
+  color: blue;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.quest-container5 {
+  margin: 0 auto;
+  width: 1350px;
+  margin-top: 20px;
+  padding-left: 15px;
+  justify-content: center;
+  background-color: white;
+  border-radius: 20px 20px 0px 0px;
+  max-height: 100%;
+}
+
+.quest-container5 h5 {
+  color: black;
+  margin: 0 auto;
+  padding-top: 7px;
+}
+
+.quest-container5 p {
+  color: black;
+  margin: 0 auto;
+  font-size: 10px;
+  padding-left: 25px;
+}
+
+.quest-container5 h4 {
+  color: black;
+  margin: 0 auto;
+  font-size: 15px;
+  padding: 15px 25px 15px 25px;
+}
+
+.quest-container6 {
+  width: 1350px;
+  margin: 0 auto;
+  padding: 0px 5px 0px 15px;
+  background-color: white;
+  border-radius: 0px 0px 20px 20px;
+  max-height: 100%;
+}
+
+.quest-container6 h6 {
+  margin: 0 auto;
+  color: black;
+  padding-top: 10px;
+  font-size: 15px;
+}
+
+.quest-container6 p {
+  margin: 0 auto;
+  color: black;
+  font-size: 12px;
+  padding-left: 23px;
+}
+
+.quest-container6 p span {
+  color: blue;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+/* END OF CSS COMMUNITY */
+
+/* CSS FOR RESPONSIVE PAGES */
+
+/* COMMUNITY */
+
+@media only screen and (max-width: 490px) {
+  .com-name h5 {
+    color: white;
+    padding: 20px 0px 0px 25px;
+  }
+
+  .com-name p {
+    color: white;
+    padding: 0px 25px 0px 25px;
+  }
+
+  .icon-container p {
+    font-size: 8px;
+    padding-top: 7px;
+    padding-right: 5px;
+  }
+}
+@media only screen and (min-width: 490px) and (max-width: 550px) {
+  .com-name h5 {
+    color: white;
+    padding: 20px 0px 0px 25px;
+  }
+
+  .com-name p {
+    color: white;
+    padding: 0px 25px 0px 25px;
+  }
+
+  .icon-container p {
+    font-size: 9px;
+    padding-top: 7px;
+    padding-right: 5px;
+  }
+}
+@media only screen and (min-width: 550px) and (max-width: 700px) {
+  .com-name h5 {
+    color: white;
+    padding: 20px 0px 0px 35px;
+  }
+
+  .com-name p {
+    color: white;
+    padding: 0px 30px 0px 35px;
+  }
+
+  .icon-container p {
+    font-size: 10px;
+    padding-top: 7px;
+    padding-right: 5px;
+  }
+}
+@media only screen and (min-width: 700px) and (max-width: 972px) {
+  .com-name h5 {
+    color: white;
+    padding: 20px 0px 0px 50px;
+  }
+
+  .com-name p {
+    color: white;
+    padding: 0px 30px 0px 55px;
+  }
+
+  .icon-container p {
+    font-size: 12px;
+    padding-top: 7px;
+    padding-right: 5px;
+  }
+}
+@media only screen and (min-width: 972px) and (max-width: 1100px) {
+  .com-name h5 {
+    color: white;
+    padding: 20px 0px 0px 70px;
+  }
+
+  .com-name p {
+    color: white;
+    padding: 0px 30px 0px 75px;
+  }
+
+  .icon-container p {
+    font-size: 14px;
+    padding-top: 6px;
+    padding-right: 5px;
+  }
+}
+/* END OF RESPONSIVE CSS COMMUNITY */
