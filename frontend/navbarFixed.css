@@ -145,6 +145,7 @@ header label {
 }
 
 .popup {
+  margin-top: 100px;  
   margin: 70px auto;
   height: 600px;
   padding: 50px;
@@ -192,25 +193,6 @@ header label {
 /* END OF NAVBAR CSS */
 
 /* CSS HOMEPAGE */
-.ask-container {
-  margin: 20px 0px 20px 70px;
-  background-color: white;
-  width: 305px;
-  height: 40px;
-  border-radius: 20px;
-  padding: 7px 0px 0px 35px;
-}
-
-.ask-container p {
-  text-align: left;
-  color: black;
-  justify-content: center;
-}
-
-.ask-container p a {
-  text-decoration: none;
-  color: black;
-}
 
 .quest-container {
   margin: 0 auto;
