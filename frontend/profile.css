@@ -1,0 +1,159 @@
+body {
+    background-color: #081f37;
+  }
+  
+  .col-md-4 input {
+    border-radius: 20px;
+  }
+  
+  
+  .icon-container-profile a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .icon-container-profile p {
+    text-decoration: none;
+    color: black;
+  }
+  
+  * {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+  }
+  body {
+    min-height: 100%;
+    background-color: #081f37;
+  }
+  
+  .profile-container {
+    margin: 0 auto;
+    margin-top: 220px;
+    width: 1350px;
+    padding-left: 15px;
+    padding-top: 10px;
+    justify-content: center;
+    background-color: white;
+    border-radius: 20px 20px 0px 0px;
+    max-height: 100%;
+  }
+  
+  .profile-container h5 {
+    color: black;
+    margin: 0 auto;
+    padding-top: 10px;
+  }
+  
+  .profile-container p {
+    color: black;
+    margin: 0 auto;
+    font-size: 10px;
+    padding-left: 25px;
+  }
+  
+  .profile-container h4 {
+    color: black;
+    margin: 0 auto;
+    font-size: 15px;
+    padding: 15px 25px 15px 25px;
+  }
+  
+  .icon-container-profile {
+    height: 30px;
+    width: 1350px;
+    margin: 0 auto;
+    padding-left: 25px;
+    background-color: #dae6f1;
+    max-height: 100%;
+  }
+  
+  .icon-container-profile p {
+    font-size: 15px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-weight: bold;
+  }
+  
+
+  .quest-container-profile {
+    width: 1350px;
+    margin: 0 auto;
+    padding: 0px 5px 0px 15px;
+    background-color: white;
+    border-radius: 0px 0px 20px 20px;
+    max-height: 100%;
+  }
+  
+  .quest-container-profile h6 {
+    margin: 0 auto;
+    color: black;
+    padding-top: 10px;
+    font-size: 15px;
+  }
+  
+  .quest-container-profile p {
+    margin: 0 auto;
+    color: black;
+    font-size: 12px;
+    padding-left: 23px;
+  }
+  
+  .quest-container-profile p span {
+    color: blue;
+    font-style: italic;
+    text-decoration: underline;
+  }
+  
+  
+  /* CSS FOR RESPONSIVE PAGES */
+  
+  @media only screen and (max-width: 490px) {
+    .ask-container {
+      margin: 20px 0px 20px 25px;
+      background-color: white;
+      width: 305px;
+      height: 40px;
+      border-radius: 20px;
+      padding: 7px 0px 0px 35px;
+    }
+  
+    .icon-container-profile p {
+      font-size: 8px;
+      padding-top: 7px;
+      padding-right: 5px;
+    }
+  }
+  @media only screen and (min-width: 490px) and (max-width: 550px) {
+  
+    .icon-container-profile p {
+      font-size: 9px;
+      padding-top: 7px;
+      padding-right: 5px;
+    }
+  }
+  @media only screen and (min-width: 550px) and (max-width: 700px) {
+
+    .icon-container-profile p {
+      font-size: 10px;
+      padding-top: 7px;
+      padding-right: 5px;
+    }
+  }
+  @media only screen and (min-width: 700px) and (max-width: 972px) {
+  
+    .icon-container-profile p {
+      font-size: 12px;
+      padding-top: 7px;
+      padding-right: 5px;
+    }
+  }
+  @media only screen and (min-width: 972px) and (max-width: 1100px) {
+  
+    .icon-container-profile p {
+      font-size: 14px;
+      padding-top: 6px;
+      padding-right: 5px;
+    }
+  }
+  /* END OF RESPONSIVE CSS PROFILE */
