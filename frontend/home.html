@@ -1,0 +1,495 @@
+{% extends "base.html" %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+
+    <title>Homepage</title>
+
+    <style>
+      .col-md-4 input {
+        border-radius: 20px;
+      }
+
+      .ask-container {
+        margin: 20px 0px 20px 70px;
+        background-color: white;
+        width: 305px;
+        height: 40px;
+        border-radius: 20px;
+        padding: 7px 0px 0px 35px;
+      }
+
+      .ask-container p {
+        text-align: left;
+        color: black;
+        justify-content: center;
+      }
+
+      .ask-container p a {
+        text-decoration: none;
+        color: black;
+      }
+
+      * {
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+      }
+
+      body {
+        margin-top: 100px;
+        min-height: 100%;
+        background-color: #081f37;
+      }
+
+      .quest-container {
+        margin: 0 auto;
+        width: 1350px;
+        padding-left: 15px;
+        justify-content: center;
+        background-color: red;
+        border-radius: 20px 20px 0px 0px;
+        max-height: 100%;
+      }
+
+      .quest-container h5 {
+        color: black;
+        margin: 0 auto;
+        padding-top: 7px;
+      }
+
+      .quest-container p {
+        color: black;
+        margin: 0 auto;
+        font-size: 10px;
+        padding-left: 25px;
+      }
+
+      .quest-container h4 {
+        color: black;
+        margin: 0 auto;
+        font-size: 15px;
+        padding: 15px 25px 15px 25px;
+      }
+
+      .icon-container {
+        height: 30px;
+        width: 1350px;
+        margin: 0 auto;
+        padding-left: 25px;
+        background-color: #dae6f1;
+        max-height: 100%;
+      }
+
+      .icon-container p {
+        font-size: 15px;
+        padding-top: 4px;
+        padding-left: 17px;
+      }
+
+
+      {% comment %} .quest-container2 {
+        width: 1350px;
+        margin: 0 auto;
+        padding: 0px 5px 0px 15px;
+        background-color: white;
+        border-radius: 0px 0px 20px 20px;
+        max-height: 100%;
+      }
+
+      .quest-container2 h6 {
+        margin: 0 auto;
+        color: black;
+        padding-top: 10px;
+        font-size: 15px;
+      }
+
+      .quest-container2 p {
+        margin: 0 auto;
+        color: black;
+        font-size: 12px;
+        padding-left: 23px;
+      }
+
+      .quest-container2 p span {
+        color: blue;
+        font-style: italic;
+        text-decoration: underline;
+      }
+
+      .quest-container3 {
+        width: 1350px;
+        margin: 0 auto;
+        margin-top: 20px;
+        padding-left: 15px;
+        background-color: white;
+        border-radius: 20px 20px 0px 0px;
+        max-height: 100%;
+      }
+
+      .quest-container3 h5 {
+        color: black;
+        margin: 0 auto;
+        padding-top: 7px;
+      }
+
+      .quest-container3 p {
+        margin: 0 auto;
+        font-size: 10px;
+        color: black;
+        padding-left: 30px;
+      }
+
+      .quest-container3 h4 {
+        margin: 0 auto;
+        color: black;
+        font-size: 15px;
+        padding: 15px 25px 15px 25px;
+      }
+
+      .quest-container4 {
+        width: 1350px;
+        margin: 0 auto;
+        padding-left: 15px;
+        background-color: white;
+        border-radius: 0px 0px 20px 20px;
+        max-height: 100%;
+      }
+
+      .quest-container4 h6 {
+        margin: 0 auto;
+        color: black;
+        padding-top: 10px;
+        font-size: 15px;
+      }
+
+      .quest-container4 p {
+        color: black;
+        margin: 0 auto;
+        font-size: 12px;
+        padding-left: 25px;
+      }
+
+      .quest-container4 p span {
+        color: blue;
+        font-style: italic;
+        text-decoration: underline;
+      }
+
+      .quest-container5 {
+        margin: 0 auto;
+        width: 1350px;
+        margin-top: 20px;
+        padding-left: 15px;
+        justify-content: center;
+        background-color: white;
+        border-radius: 20px 20px 0px 0px;
+        max-height: 100%;
+      }
+
+      .quest-container5 h5 {
+        color: black;
+        margin: 0 auto;
+        padding-top: 7px;
+      }
+
+      .quest-container5 p {
+        color: black;
+        margin: 0 auto;
+        font-size: 10px;
+        padding-left: 25px;
+      }
+
+      .quest-container5 h4 {
+        color: black;
+        margin: 0 auto;
+        font-size: 15px;
+        padding: 15px 25px 15px 25px;
+      }
+
+      .quest-container6 {
+        width: 1350px;
+        margin: 0 auto;
+        padding: 0px 5px 0px 15px;
+        background-color: white;
+        border-radius: 0px 0px 20px 20px;
+        max-height: 100%;
+      }
+
+      .quest-container6 h6 {
+        margin: 0 auto;
+        color: black;
+        padding-top: 10px;
+        font-size: 15px;
+      }
+
+      .quest-container6 p {
+        margin: 0 auto;
+        color: black;
+        font-size: 12px;
+        padding-left: 23px;
+      }
+
+      .quest-container6 p span {
+        color: blue;
+        font-style: italic;
+        text-decoration: underline;
+      } {% endcomment %}
+
+      /* END OF CSS COMMUNITY */
+
+      /* CSS FOR RESPONSIVE PAGES */
+
+      /* COMMUNITY */
+
+      @media only screen and (max-width: 490px) {
+        .ask-container {
+          margin: 20px 0px 20px 25px;
+          background-color: white;
+          width: 305px;
+          height: 40px;
+          border-radius: 20px;
+          padding: 7px 0px 0px 35px;
+        }
+
+        .icon-container p {
+          font-size: 8px;
+          padding-top: 7px;
+          padding-right: 5px;
+        }
+      }
+      @media only screen and (min-width: 490px) and (max-width: 550px) {
+        .ask-container {
+          margin: 20px 0px 20px 30px;
+          background-color: white;
+          width: 305px;
+          height: 40px;
+          border-radius: 20px;
+          padding: 7px 0px 0px 35px;
+        }
+
+        .icon-container p {
+          font-size: 9px;
+          padding-top: 7px;
+          padding-right: 5px;
+        }
+      }
+      @media only screen and (min-width: 550px) and (max-width: 700px) {
+        .ask-container {
+          margin: 20px 0px 20px 35px;
+          background-color: white;
+          width: 305px;
+          height: 40px;
+          border-radius: 20px;
+          padding: 7px 0px 0px 35px;
+        }
+
+        .icon-container p {
+          font-size: 10px;
+          padding-top: 7px;
+          padding-right: 5px;
+        }
+      }
+      @media only screen and (min-width: 700px) and (max-width: 972px) {
+        .ask-container {
+          margin: 20px 0px 20px 40px;
+          background-color: white;
+          width: 305px;
+          height: 40px;
+          border-radius: 20px;
+          padding: 7px 0px 0px 35px;
+        }
+
+        .icon-container p {
+          font-size: 12px;
+          padding-top: 7px;
+          padding-right: 5px;
+        }
+      }
+      @media only screen and (min-width: 972px) and (max-width: 1100px) {
+        .ask-container {
+          margin: 20px 0px 20px 50px;
+          background-color: white;
+          width: 305px;
+          height: 40px;
+          border-radius: 20px;
+          padding: 7px 0px 0px 35px;
+        }
+
+        .icon-container p {
+          font-size: 14px;
+          padding-top: 6px;
+          padding-right: 5px;
+        }
+      }
+      /* END OF RESPONSIVE CSS COMMUNITY */
+    </style>
+  </head>
+
+  {% block content %}
+
+  <!-- Ask bar -->
+  <div class="box">
+    <a class="button" href="{% url 'cyroombase:question-create' %}"
+      ><i class="bi bi-person-circle">&nbsp;&nbsp;</i><i>What do you want to ask?</i></a>
+  </div>
+
+  <div id="popup1" class="overlay">
+    <div class="popup">
+      <p>&nbsp;</p>
+      <h5>
+        <i class="bi bi-person-circle"></i>&nbsp;&nbsp;<i
+          >Start a question with a question word...</i
+        >
+      </h5>
+      <hr />
+      <a
+        class="close"
+        href="#"
+        style="color: white"
+        style="justify-content: start"
+        >&times;</a
+      >
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1"></label>
+        <textarea
+          class="form-control"
+          id="exampleFormControlTextarea1"
+          rows="3"
+        ></textarea>
+        <input class="btn btn-primary" type="submit" value="Submit" />
+      </div>
+    </div>
+  </div>
+  <!-- End of ask bar -->
+
+  <!--  Question -->
+  {% for pertanyaan in question %}
+  <div class="quest-container">
+    <a href="{% url 'profile' %}"
+      ><i class="bi bi-person-circle"></i>&nbsp;&nbsp;{{ pertanyaan.author }}</a
+    >
+    <p>{{pertanyaan.upload_time|date:"j F, Y"}}</p>
+
+    <div id="title-sec" style="display: flex; align-items: center">
+      <!-- <a href="{% url 'profile' %}"><img src="{{ request.user.profile.image.url }}" style="width: 50px;"></a></img> -->
+      <h3 id="fh3">
+        <a href="{% url 'cyroombase:question-detail' pertanyaan.id%}"
+          >{{ pertanyaan.title }}</a
+        >
+      </h3>
+    </div>
+    <hr />
+    {% if pertanyaan.content|wordcount <= 20 %}
+    <h6 id="fh6" style="text-align: left">{{ pertanyaan.content}}</h6>
+    {% else %}
+    <h6 id="fh6" style="text-align: left">
+      {{ pertanyaan.content|truncatewords:20}}
+      <a href="{% url 'cyroombase:question-detail' pertanyaan.id%}"
+        ><i style="color:blue; font-style=normal;">(show more)</i></a
+      >
+    </h6>
+    {% endif %}
+    <p>&nbsp;</p>
+    <p type="button" style="max-height: 100%">
+      <!--answer-->
+      <i class="bi bi-pencil-fill"></i>&nbsp;
+      <a href="{% url 'cyroombase:question-detail' pertanyaan.id%}">Answers</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <!--comment-->
+      <i class="bi bi-chat-right-text-fill"></i>&nbsp;
+      <a href="{% url 'cyroombase:question-detail' pertanyaan.id%}">Comments</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <!--upvote-->
+      <i class="bi bi-caret-up-fill" style="height: 20px"></i>&nbsp;
+      {% comment %} <a href="{% url 'cyroombase:upvote' question.pk %}">{{ question.upvotes }} Upvotes</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {% endcomment %}
+      <!-- Upvote button -->
+      {% if request.user in question.upvoted_users.all %}
+          <a href="{% url 'cyroombase:upvote' pertanyaan.pk %}">{{ question.upvotes }} Upvotes</a>
+      {% else %}
+          <a href="{% url 'cyroombase:upvote' pertanyaan.pk %}">{{ question.upvotes }} Upvotes</a>
+      {% endif %}
+      <!--downvote-->
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="bi bi-caret-down-fill"></i>&nbsp;
+      {% comment %} <a href="{% url 'cyroombase:downvote' question.pk %}">{{ question.downvotes }} Downvotes</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {% endcomment %}
+      {% if request.user in question.upvoted_users.all %}
+          <a href="{% url 'cyroombase:downvote' pertanyaan.pk %}">{{ question.downvotes }} Downvotes</a>
+      {% else %}
+          <a href="{% url 'cyroombase:downvote' pertanyaan.pk %}">{{ question.downvotes }} Downvotes</a>
+      {% endif %}
+      <!--delete-->
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="{% url 'cyroombase:question-delete' pertanyaan.id%}">Delete</a>
+    </p>
+  </div>
+  <br />
+  {% empty %}
+  <h1>No questions have been posted yet</h1>
+  {% endfor %}
+
+  <div class="comment-section mh-300">
+    {% if user.is_authenticated %}
+        <div class="justify-content-center mt-3 mb-2">
+            {% comment %} <form method="POST" action="{% url 'question-detail' question.id %}"> {% endcomment %}
+                {% csrf_token %}
+                {{ form.as_p }}
+                <div class="d-grid gap-2">
+                </div>
+            </form>
+        </div>
+    {% endif %}
+
+    {% for komentar in comment %}
+        <div class="comment">
+            <p class="m-0">{{komentar.konten}} - 
+                <a href="#">{{komentar.author}}</a> 
+                <span class="text-muted">
+                    {{komentar.upload_time}}
+                </span>
+            </p>
+        </div>
+    {% endfor %}
+</div>
+</div>
+
+
+{% for jawaban in answer %}
+<div class="content-section">
+    <div>
+        <a href="#">{{jawaban.author}}</a>
+        <small class="text-muted">{{jawaban.upload_time}}</small>
+    </div> 
+    <p class="my-2">{{jawaban.content|linebreaks}}</p>
+    {% if jawaban.snippet %}
+        <pre class="content-section code my-2">{{jawaban.snippet}}</pre>
+    {% endif %}
+</div>
+{% empty %}
+    <h5>No one has posted an answer yet</h5>
+{% endfor %}
+  
+  <!-- End of question -->
+
+  <!-- Jangan dihapus -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+  {% endblock content %}
+</html>
